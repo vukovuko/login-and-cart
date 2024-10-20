@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     /* Basic Options */
+    "types": ["vite/client"],
     "target": "ESNext", // Specify ECMAScript target version
     "module": "ESNext", // Specify module code generation
     "lib": ["DOM", "DOM.Iterable", "ESNext"], // Specify library files to be included

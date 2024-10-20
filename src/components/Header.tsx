@@ -15,7 +15,7 @@ const Header: React.FC = () => {
       <div className="pt-[9px]">
         <Link to="/collection">
           <img
-            src="/logo_builtt_veci.png"
+            src={`${import.meta.env.BASE_URL}logo_builtt_veci.png`}
             alt="Builtt Logo"
             className="w-[87px] h-[38.25px] object-contain"
           />
@@ -24,7 +24,7 @@ const Header: React.FC = () => {
       <Link to="/cart" className="flex items-center">
         <div className="relative flex items-center cursor-pointer">
           <img
-            src="/Cart.svg"
+            src={`${import.meta.env.BASE_URL}Cart.svg`}
             alt="Cart Icon"
             className="w-[23px] h-[23px] object-contain"
           />
