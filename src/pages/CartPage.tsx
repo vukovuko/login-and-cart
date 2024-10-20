@@ -123,7 +123,7 @@ const CartPage: React.FC = () => {
       </div>
 
       {cartItems.length > 0 && (
-        <div className="w-full bg-[#F6F6F6] p-6 pr-[20px] rounded-lg mt-8 lg:mt-[60px] lg:ml-[50px] min-w-[381px] h-[454px] max-h-[454px] lg:sticky lg:top-[10px]">
+        <div className="w-full bg-[#F6F6F6] p-6 pr-[20px] rounded-5px mt-8 lg:mt-[60px] lg:ml-[50px] md:min-w-[381px] h-[454px] max-h-[454px] lg:sticky lg:top-[10px]">
           <h2 className="font-bold text-[18px] leading-[24px] tracking-[0] mb-[29px]">
             Tvoja narudžbina
           </h2>

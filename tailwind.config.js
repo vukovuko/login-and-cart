@@ -16,6 +16,9 @@ export default {
         0.02: "0.02em",
         0.04: "0.04em",
       },
+      borderRadius: {
+        "5px": "5px",
+      },
     },
   },
   plugins: [],
