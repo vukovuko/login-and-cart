@@ -45,7 +45,7 @@ const QuickATC: React.FC<QuickATCProps> = ({ onAddToCart }) => {
           onClick={decrement}
         >
           <img
-            src="/Minus.svg"
+            src={`${import.meta.env.BASE_URL}Minus.svg`}
             alt="Minus Icon"
             className="w-full h-full object-contain"
           />
@@ -69,7 +69,7 @@ const QuickATC: React.FC<QuickATCProps> = ({ onAddToCart }) => {
           onClick={increment}
         >
           <img
-            src="/Plus.svg"
+            src={`${import.meta.env.BASE_URL}Plus.svg`}
             alt="Plus Icon"
             className="w-full h-full object-contain"
           />
@@ -80,7 +80,7 @@ const QuickATC: React.FC<QuickATCProps> = ({ onAddToCart }) => {
         onClick={handleAddToCart}
       >
         <img
-          src="/Cart.png"
+          src={`${import.meta.env.BASE_URL}Cart.png`}
           alt="Cart Icon"
           className="w-[21px] h-[21px] object-contain"
         />

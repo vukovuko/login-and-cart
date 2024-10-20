@@ -84,7 +84,7 @@ const CartPage: React.FC = () => {
                       }
                     >
                       <img
-                        src="/Minus.svg"
+                        src={`${import.meta.env.BASE_URL}Minus.svg`}
                         alt="Minus Icon"
                         className="w-full h-full object-contain"
                       />
@@ -106,7 +106,7 @@ const CartPage: React.FC = () => {
                       }
                     >
                       <img
-                        src="/Plus.svg"
+                        src={`${import.meta.env.BASE_URL}Plus.svg`}
                         alt="Plus Icon"
                         className="w-full h-full object-contain"
                       />
