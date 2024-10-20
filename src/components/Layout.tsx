@@ -5,7 +5,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow mx-auto">{children}</main>
+      <main className="max-w-[1440px] md:mx-auto">{children}</main>
     </div>
   );
 };

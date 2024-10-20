@@ -49,14 +49,14 @@ const CartPage: React.FC = () => {
           cartItems.map((item) => (
             <div
               key={item.id}
-              className="flex mb-6 border-b gap-1 md:gap-0 pb-[20px] md:min-w-[767px]"
+              className="flex mb-6 border-b gap-1 md:gap-0 pb-[20px] md:min-w-[767px] relative"
             >
               <img
                 src={`${import.meta.env.BASE_URL}${item.imageSrc}`}
                 alt={item.name}
-                className="w-[143px] h-[143px] object-cover"
+                className="w-24 h-24 xl:w-[143px] xl:h-[143px] object-cover"
               />
-              <div className="flex-grow ml-[36px]">
+              <div className="flex-grow max-w-[180px] md:max-w-full ml-2 xl:ml-[36px]">
                 <h2 className="font-bold text-[18px] text-black leading-[18px] mt-[3px] tracking-0">
                   {item.name}
                 </h2>
@@ -110,7 +110,7 @@ const CartPage: React.FC = () => {
                   </button>
                 </div>
               </div>
-              <div className="text-right mr-[4px] mt-[8px]">
+              <div className="text-right mr-[10px] md:mr-[4px] mt-[8px]">
                 <ProductPrice
                   price={item.price}
                   quantity={item.quantity}
@@ -145,7 +145,7 @@ const CartPage: React.FC = () => {
             <span className="text-[16px] leading-[28px] tracking-[0]">
               Ukupno za uplatu
             </span>
-            <div className="flex items-start gap-1 mt-[4px]">
+            <div className="flex items-start gap-1 sm:flex-row mt-[4px]">
               <span className="text-[18px] leading-[25px] tracking--0.01">
                 {formatMoney(totalAmount)}
               </span>

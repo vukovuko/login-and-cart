@@ -18,8 +18,8 @@ const ProductPrice: React.FC<ProductPriceProps> = ({
   return (
     <div className="flex flex-col gap-1 items-start">
       {" "}
-      <div className="flex items-start gap-1">
-        <span className="text-black text-[23.94px] leading-[33.3px] ml-[-1px] tracking--0.01">
+      <div className="flex items-start flex-col sm:flex-row gap-1">
+        <span className="text-black text-[16px] md:text-[23.94px] leading-[33.3px] ml-[-1px] tracking--0.01">
           {formatMoney(totalPrice)}
         </span>
         <span className="text-[13px] leading-[16px] text-black ml-[2px] align-top tracking-0.04">
