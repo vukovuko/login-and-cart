@@ -2,6 +2,8 @@
 
 This project was built as a part of a task to implement an app with login and cart collection page. It is built using Vite and React. Below are the instructions for setting up the project.
 
+Application is hosted via GitHub pages at [https://vukovuko.github.io/login-and-cart/](https://vukovuko.github.io/login-and-cart/)
+
 ## Prerequisites
 
 - You need Node.js and npm installed. The current project uses:
