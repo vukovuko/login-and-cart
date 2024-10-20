@@ -17,7 +17,7 @@ npm install
 npm run dev
 ```
 
-and then visit [http://localhost:5173](http://localhost:5173).
+and then visit [http://localhost:3000](http://localhost:3000).
 
 You can also use docker
 
