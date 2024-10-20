@@ -57,7 +57,7 @@ const CartPage: React.FC = () => {
               className="flex mb-6 border-b gap-1 md:gap-0 pb-[20px] md:min-w-[767px]"
             >
               <img
-                src={item.imageSrc}
+                src={`${import.meta.env.BASE_URL}${item.imageSrc}`}
                 alt={item.name}
                 className="w-[143px] h-[143px] object-cover"
               />

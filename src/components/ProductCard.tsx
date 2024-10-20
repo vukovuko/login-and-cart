@@ -30,7 +30,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
   return (
     <div className="bg-white overflow-hidden relative group w-full sm:max-w-[284px] mx-auto">
       <div className="relative w-full h-[284px]">
-        <img src={imageSrc} alt={name} className="w-full h-full object-cover" />
+        <img
+          src={`${import.meta.env.BASE_URL}${imageSrc}`}
+          alt={name}
+          className="w-full h-full object-cover"
+        />
         <div className="block xl-custom:hidden xl-custom:group-hover:block transition-opacity duration-300">
           <QuickATC onAddToCart={handleAddToCart} />
         </div>
