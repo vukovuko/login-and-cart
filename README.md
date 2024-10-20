@@ -10,7 +10,7 @@ This project was built as a part of a task to implement an app with login and ca
 
 ## Installation
 ```bash
-git clone [https://github.com/vuko/login-and-cart.git](https://github.com/vukovuko/login-and-cart.git)
+git clone https://github.com/vukovuko/login-and-cart.git
 cd login-and-cart
 npm install
 npm run dev
