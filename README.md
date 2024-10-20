@@ -11,7 +11,7 @@ This project was built as a part of a task to implement an app with login and ca
 ## Installation
 
 ```bash
-git clone https://github.com/vuko/login-and-cart.git
+git clone https://github.com/vukovuko/login-and-cart.git
 cd login-and-cart
 npm install
 npm run dev
@@ -22,7 +22,7 @@ and then visit [http://localhost:5173](http://localhost:5173).
 You can also use docker
 
 ```bash
-git clone https://github.com/vuko/login-and-cart.git
+git clone https://github.com/vukovuko/login-and-cart.git
 cd login-and-cart
 docker build . -t login-and-cart-dev:latest
 docker run -dp 3000:3000 login-and-cart-dev:latest
