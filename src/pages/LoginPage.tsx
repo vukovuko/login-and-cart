@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+import Cookies from "js-cookie";
 import FloatingLabelInput from "../components/FloatingLabelInput";
 
 const LoginPage: React.FC = () => {
@@ -7,6 +8,7 @@ const LoginPage: React.FC = () => {
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -15,8 +17,10 @@ const LoginPage: React.FC = () => {
     const hardcodedPassword = "admin";
 
     if (email === hardcodedEmail && password === hardcodedPassword) {
-      localStorage.setItem("isAuthenticated", "true");
-      navigate("/collection");
+      Cookies.set("isAuthenticated", "true", { expires: 7 });
+
+      const from = location.state?.from?.pathname || "/collection";
+      navigate(from);
     } else {
       setErrorMessage("Neispravni podaci za prijavu");
     }
