@@ -20,13 +20,11 @@ const CartPage: React.FC = () => {
     dispatch(removeFromCart({ id }));
   };
 
-  // Calculate total amount
   const totalAmount = cartItems.reduce(
     (total, item) => total + item.price * item.quantity,
     0,
   );
 
-  // Calculate total savings (Ušteda)
   const totalSavings = cartItems.reduce((total, item) => {
     if (item.compare_at_price && item.compare_at_price > item.price) {
       const savingsPerItem =
@@ -39,10 +37,7 @@ const CartPage: React.FC = () => {
   return (
     <div className="flex flex-col xl:flex-row justify-between px-4 xl:px-0 mt-[52px] pb-8">
       <div className="w-full">
-        <h1
-          className="font-helvetica font-bold text-[20px] leading-[24px] mb-[40px]"
-          style={{ letterSpacing: "0.01em" }}
-        >
+        <h1 className="font-helvetica font-bold text-[20px] leading-[24px] mb-[40px] tracking-0.01">
           Tvoja korpa
         </h1>
         {cartItems.length === 0 ? (
@@ -62,16 +57,10 @@ const CartPage: React.FC = () => {
                 className="w-[143px] h-[143px] object-cover"
               />
               <div className="flex-grow ml-[36px]">
-                <h2
-                  className="font-bold text-[18px] text-black leading-[18px] mt-[3px]"
-                  style={{ letterSpacing: "0" }}
-                >
+                <h2 className="font-bold text-[18px] text-black leading-[18px] mt-[3px] tracking-0">
                   {item.name}
                 </h2>
-                <p
-                  className="text-black text-[15px] leading-[23px] mt-[4px]"
-                  style={{ letterSpacing: "0" }}
-                >
+                <p className="text-black text-[15px] leading-[23px] mt-[4px] tracking-0">
                   750 g
                 </p>
                 <div className="flex items-center gap-[26px] mt-[52px] ml-[1px]">
@@ -144,15 +133,11 @@ const CartPage: React.FC = () => {
             amount={-totalSavings}
             currency="RSD"
           />{" "}
-          {/* Display the total savings */}
           <div className="flex justify-between items-center mb-[12px]">
             <span className="text-[16px] leading-[28px] tracking-[0]">
               Isporuka Daily Express*
             </span>
-            <span
-              className="text-[12px] leading-[12px] mr-[4px]"
-              style={{ letterSpacing: "0.02em" }}
-            >
+            <span className="text-[12px] leading-[12px] mr-[4px] tracking-0.02">
               Besplatna
             </span>
           </div>
@@ -161,25 +146,16 @@ const CartPage: React.FC = () => {
               Ukupno za uplatu
             </span>
             <div className="flex items-start gap-1 mt-[4px]">
-              <span
-                className="text-[18px] leading-[25px]"
-                style={{ letterSpacing: "-0.01em" }}
-              >
+              <span className="text-[18px] leading-[25px] tracking--0.01">
                 {formatMoney(totalAmount)}
               </span>
-              <span
-                className="text-[10px] leading-[12px] text-black ml-[2px] align-top"
-                style={{ letterSpacing: "0.04em" }}
-              >
+              <span className="text-[10px] leading-[12px] text-black ml-[2px] align-top tracking-0.04">
                 RSD
               </span>
             </div>
           </div>
           <div className="flex justify-between mb-[34px]">
-            <span
-              className="text-[12px] leading-[12px]"
-              style={{ letterSpacing: "0.02em" }}
-            >
+            <span className="text-[12px] leading-[12px] tracking-0.02">
               Cena je sa uključenim PDV-om
             </span>
           </div>

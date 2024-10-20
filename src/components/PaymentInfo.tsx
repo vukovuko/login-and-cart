@@ -17,16 +17,10 @@ const PaymentInfo: React.FC<PaymentInfoProps> = ({
       <span className="text-[16px] leading-[28px] tracking-[0]">{label}</span>
 
       <div className="flex items-start gap-1">
-        <span
-          className="text-[18px] leading-[25px]"
-          style={{ letterSpacing: "-0.01em" }}
-        >
+        <span className="text-[18px] leading-[25px] tracking--0.01">
           {formatMoney(amount)}
         </span>
-        <span
-          className="text-[10px] leading-[12px] text-black ml-[2px] align-top"
-          style={{ letterSpacing: "0.04em" }}
-        >
+        <span className="text-[10px] leading-[12px] text-black ml-[2px] align-top tracking-0.04">
           {currency}
         </span>
       </div>

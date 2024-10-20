@@ -40,10 +40,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         </div>
       </div>
       <div className="mt-4">
-        <h2
-          className="font-bold text-[18px] leading-[24px] text-black mb-[7px]"
-          style={{ letterSpacing: "0" }}
-        >
+        <h2 className="font-bold text-[18px] leading-[24px] text-black mb-[7px] tracking-0">
           {name}
         </h2>
         <ProductPrice price={price} />

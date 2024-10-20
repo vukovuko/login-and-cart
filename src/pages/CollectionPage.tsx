@@ -24,16 +24,10 @@ const CollectionPage: React.FC = () => {
       <div className="flex flex-col min-h-screen">
         <div className="flex-grow mt-[40px] md:mt-[60px] lg:mt-[46px]">
           <div className="flex items-center gap-[9px] mb-[20px] md:mb-[25px] lg:mb-[30px]">
-            <h1
-              className="font-bold text-[20px] leading-[24px] text-black"
-              style={{ letterSpacing: "0.01em" }}
-            >
+            <h1 className="font-bold text-[20px] leading-[24px] text-black tracking-0.01">
               Svi proizvodi
             </h1>
-            <span
-              className="text-[15px] leading-[23px] text-black opacity-50 mb-[-4px]"
-              style={{ letterSpacing: "0" }}
-            >
+            <span className="text-[15px] leading-[23px] text-black opacity-50 mb-[-4px] tracking-0">
               {products.length} proizvoda
             </span>
           </div>
