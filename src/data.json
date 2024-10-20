@@ -1,0 +1,315 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 546,
+      "imageSrc": "Proizvod.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 865,
+      "compare_at_price": 1290,
+      "imageSrc": "Proizvod1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 910,
+      "compare_at_price": 1200,
+      "imageSrc": "Proizvod2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1125,
+      "imageSrc": "Proizvod3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1320,
+      "compare_at_price": 1500,
+      "imageSrc": "Proizvod4.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 725,
+      "compare_at_price": 1400,
+      "imageSrc": "Proizvod5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1500,
+      "imageSrc": "Proizvod6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 680,
+      "compare_at_price": 810,
+      "imageSrc": "Proizvod7.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 940,
+      "compare_at_price": 1100,
+      "imageSrc": "Proizvod8.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1150,
+      "imageSrc": "Proizvod9.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 970,
+      "imageSrc": "Proizvod10.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 810,
+      "imageSrc": "Proizvod11.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1080,
+      "imageSrc": "Proizvod12.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 725,
+      "imageSrc": "Proizvod13.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1230,
+      "compare_at_price": 1500,
+      "imageSrc": "Proizvod14.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 840,
+      "imageSrc": "Proizvod15.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 920,
+      "compare_at_price": 1220,
+      "imageSrc": "Proizvod1.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1500,
+      "imageSrc": "Proizvod2.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 600,
+      "compare_at_price": 900,
+      "imageSrc": "Proizvod3.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1300,
+      "compare_at_price": 1500,
+      "imageSrc": "Proizvod4.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 740,
+      "imageSrc": "Proizvod5.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 815,
+      "imageSrc": "Proizvod6.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1255,
+      "imageSrc": "Proizvod7.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 910,
+      "compare_at_price": 1200,
+      "imageSrc": "Proizvod8.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1325,
+      "imageSrc": "Proizvod9.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 735,
+      "imageSrc": "Proizvod10.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1475,
+      "imageSrc": "Proizvod11.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 895,
+      "imageSrc": "Proizvod12.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 680,
+      "imageSrc": "Proizvod13.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 990,
+      "imageSrc": "Proizvod14.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1020,
+      "imageSrc": "Proizvod15.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1130,
+      "imageSrc": "Proizvod1.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 760,
+      "imageSrc": "Proizvod2.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1420,
+      "imageSrc": "Proizvod3.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 895,
+      "imageSrc": "Proizvod4.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 570,
+      "imageSrc": "Proizvod5.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1085,
+      "imageSrc": "Proizvod6.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1240,
+      "imageSrc": "Proizvod7.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 910,
+      "imageSrc": "Proizvod8.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1470,
+      "imageSrc": "Proizvod9.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 750,
+      "imageSrc": "Proizvod10.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 890,
+      "imageSrc": "Proizvod11.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1185,
+      "imageSrc": "Proizvod12.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1310,
+      "imageSrc": "Proizvod13.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 780,
+      "imageSrc": "Proizvod14.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1425,
+      "imageSrc": "Proizvod15.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 670,
+      "imageSrc": "Proizvod1.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1050,
+      "imageSrc": "Proizvod2.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1220,
+      "imageSrc": "Proizvod3.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Naturela sa Rogačem i Agava Šećerom",
+      "price": 1390,
+      "imageSrc": "Proizvod4.jpg"
+    }
+  ]
+}
