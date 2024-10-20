@@ -13,7 +13,7 @@ if (container) {
   createRoot(container).render(
     <StrictMode>
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename="/login-and-cart">
           <App />
           <ToastContainer
             position="top-center"
