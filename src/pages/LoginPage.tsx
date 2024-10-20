@@ -11,8 +11,8 @@ const LoginPage: React.FC = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const hardcodedEmail = "vuko@gmail.com";
-    const hardcodedPassword = "vuko";
+    const hardcodedEmail = "admin@example.com";
+    const hardcodedPassword = "admin";
 
     if (email === hardcodedEmail && password === hardcodedPassword) {
       localStorage.setItem("isAuthenticated", "true");
